@@ -51,3 +51,7 @@ Iterates over each accordion button to toggle sections.
 Event Listener:
 Toggles the active class for clicked accordions.
 Closes other open accordions when a new one is clicked.
+![Screenshot 2024-06-30 103414](https://github.com/Harsha232002/portfolio-website/assets/115417664/584eb390-e506-4de3-bbe0-fefd3642aa64)
+
+
+
