@@ -1,24 +1,7 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
 
-/**
- * copyright 2022 @codewithsadee 
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
-  /**
-   * colors
-   */
 
   --spanish-gray: hsl(0, 0%, 60%);
   --sonic-silver: hsl(0, 0%, 47%);
@@ -32,9 +15,7 @@
   --white: hsl(0, 100%, 100%);
   --onyx: hsl(0, 0%, 27%);
 
-  /**
-   * typography
-   */
+
 
   --fs-1: 1.563rem;
   --fs-2: 1.375rem;
@@ -54,16 +35,9 @@
   --weight-600: 600;
   --weight-700: 700;
 
-  /**
-   * border-radius
-   */
 
   --border-radius-md: 10px;
   --border-radius-sm: 5px;
-
-  /**
-   * transition 
-   */
 
   --transition-timing: 0.2s ease;
 
@@ -71,11 +45,6 @@
 
 
 
-
-
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
 
 *, *::before, *::after {
   margin: 0;
@@ -135,11 +104,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 
 
-
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
-
 .container { padding: 0 15px; }
 
 .has-scrollbar { padding-bottom: 5px; }
@@ -173,15 +137,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 
 
-
-/*-----------------------------------*\
-  #MAIN
-\*-----------------------------------*/
-
-/**
- * overlay 
- */
-
 .overlay {
   position: fixed;
   top: 0;
@@ -202,9 +157,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 
 
-/**
- * MODAL 
- */
 
 .modal {
   position: fixed;
@@ -329,12 +281,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 
 
-
-
-/**
- * NOTIFICATION TOAST 
- */
-
 .notification-toast {
   position: fixed;
   bottom: 80px;
@@ -421,12 +367,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 
-
-
-
-/*-----------------------------------*\
-  #HEADER
-\*-----------------------------------*/
 
 .header-top,
 .header-user-actions,
@@ -643,13 +583,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 
-
-
-
-/*-----------------------------------*\
-  #BANNER
-\*-----------------------------------*/
-
 .banner { margin: 30px 0; }
 
 .slider-container {
@@ -724,12 +657,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 
 
-
-
-/*-----------------------------------*\
-  #CATEGORY
-\*-----------------------------------*/
-
 .category { margin-bottom: 30px; }
 
 .category-item-container {
@@ -788,12 +715,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 
-
-
-
-/*-----------------------------------*\
-  #SIDEBAR
-\*-----------------------------------*/
 
 .sidebar {
   background: var(--white);
@@ -964,11 +885,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 
 
-
-/*-----------------------------------*\
-  #PRODUCT MINIMAL
-\*-----------------------------------*/
-
 .product-minimal { margin-bottom: 30px; }
 
 .product-minimal .product-showcase { margin-bottom: 10px; }
@@ -1041,11 +957,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 
 
-
-
-/*-----------------------------------*\
-  #PRODUCT FEATURED
-\*-----------------------------------*/
 
 .product-featured { margin-bottom: 30px; }
 
@@ -1199,11 +1110,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 
 
-
-/*-----------------------------------*\
-  #PRODUCT GRID
-\*-----------------------------------*/
-
 .product-main { margin-bottom: 30px; }
 
 .product-grid {
@@ -1345,12 +1251,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 
 
-
-
-/*-----------------------------------*\
-  #TESTIMONIAL
-\*-----------------------------------*/
-
 .testimonials-box { margin-bottom: 50px; }
 
 .testimonial-card {
@@ -1394,11 +1294,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 
 
-
-
-/*-----------------------------------*\
-  #CTA
-\*-----------------------------------*/
 
 .cta-container {
   position: relative;
@@ -1463,11 +1358,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 
 
-
-/*-----------------------------------*\
-  #SERVICE
-\*-----------------------------------*/
-
 .service-container {
   display: flex;
   justify-content: center;
@@ -1511,11 +1401,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 
 
-
-
-/*-----------------------------------*\
-  #BLOG
-\*-----------------------------------*/
 
 .blog { margin-bottom: 30px; }
 
@@ -1568,11 +1453,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 
 
-
-
-/*-----------------------------------*\
-  #FOOTER
-\*-----------------------------------*/
 
 footer {
   background: var(--eerie-black);
@@ -1631,9 +1511,6 @@ footer {
 }
 
 
-/**
- * footer nav 
- */
 
 .footer-nav {
   border-bottom: 1px solid var(--onyx);
@@ -1731,36 +1608,18 @@ footer {
 
 
 
-/*-----------------------------------*\
-  #RESPONSIVE
-\*-----------------------------------*/
-
-
-/**
- * responsive larger than 480px screen
- */
-
 @media (min-width: 480px) {
 
-  /**
-   * #CUSTOM PROPERTY
-   */
+ 
 
   :root {
 
-    /**
-     * typography 
-     */
+
 
     --fs-1: 1.875rem;
 
   }
 
-
-
-  /**
-   * #HEADER
-   */
 
   .header-top {
     display: block;
@@ -1788,10 +1647,6 @@ footer {
 
 
 
-  /**
-   * #BANNER
-   */
-
   .slider-item { aspect-ratio: 5 / 3; }
 
   .banner-content {
@@ -1817,21 +1672,12 @@ footer {
   .banner-btn { padding: 7px 20px; }
 
 
-
-  /**
-   * #PRODUCT 
-   */
-
   .product-grid {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
   }
 
 
-
-  /**
-   * #CTA
-   */
 
   .cta-content { padding: 40px; }
 
@@ -1848,10 +1694,6 @@ footer {
 
 
 
-  /**
-   * #FOOTER
-   */
-
   .copyright { --fs-8: 0.875rem; }
 
 }
@@ -1859,16 +1701,8 @@ footer {
 
 
 
-
-/**
- * responsive larger than 570px screen
- */
-
 @media (min-width: 570px) {
 
-  /**
-   * #HEADER
-   */
 
   .header-top .container,
   .header-main .container {
@@ -1903,30 +1737,16 @@ footer {
   .header-search-container { min-width: 300px; }
 
 
-
-  /**
-   * #BANNER
-   */
-
   .slider-item { aspect-ratio: 4 / 2; }
 
   .banner-content { background: none; }
 
 
 
-  /**
-   * #CATEGORY
-   */
-
   .category-item-container { gap: 30px; }
 
   .category-item { min-width: calc(50% - 15px); }
 
-
-
-  /**
-   * #PRODUCT
-   */
 
   .product-minimal .showcase-container { min-width: 50%; }
 
@@ -1939,17 +1759,10 @@ footer {
 
 
 
-  /**
-   * #CTA
-   */
 
   .cta-container { aspect-ratio: 6 / 5; }
 
 
-
-  /**
-   * #BLOG
-   */
 
   .blog-container { gap: 30px; }
 
@@ -1960,22 +1773,12 @@ footer {
 
 
 
-
-/**
- * responsive larger than 768px screen
- */
-
 @media (min-width: 768px) {
 
-  /**
-   * #CUSTOM PROPERTY
-   */
+
 
   :root {
 
-    /**
-     * typography 
-     */
 
     --fs-1: 2.375rem;
 
@@ -1983,28 +1786,14 @@ footer {
 
 
 
-  /**
-   * #BASE 
-   */
-
   html { font-size: 17px; }
 
-
-
-  /**
-   * #REUSED STYLE 
-   */
 
   .container {
     max-width: 750px;
     margin: auto;
   }
 
-
-  
-  /**
-   * #MODAL 
-   */
 
   .modal-content {
     display: flex;
@@ -2018,20 +1807,10 @@ footer {
   .newsletter { text-align: left; }
 
 
-
-  /**
-   * #HEADER 
-   */
-
   .header-main .container { gap: 80px; }
 
   .header-search-container { flex-grow: 1; }
 
-
-
-  /**
-   * #BANNER 
-   */
 
   .slider-item {
     aspect-ratio: auto;
@@ -2050,17 +1829,9 @@ footer {
 
 
 
-  /**
-   * #CATEGORY 
-   */
-
   .category-img-box { padding: 20px; }
 
 
-
-  /**
-   * #PRODUCT 
-   */
 
   .product-minimal {
     display: flex;
@@ -2092,9 +1863,6 @@ footer {
 
 
 
-  /**
-   * #FOOTER 
-   */
 
   .footer-nav .container {
     display: flex;
@@ -2116,22 +1884,11 @@ footer {
 
 
 
-
-/**
- * responsive larger than 1024px screen
- */
-
 @media (min-width: 1024px) {
 
-  /**
-   * #CUSTOM PROPERTY
-   */
 
   :root {
 
-    /**
-     * typography 
-     */
 
     --fs-1: 2.625rem;
     --fs-2: 1.125rem;
@@ -2140,25 +1897,12 @@ footer {
 
 
 
-  /**
-   * #REUSED STYLE 
-   */
-
   .container { max-width: 980px; }
 
 
 
-  /**
-   * #NOTIFICATION TOAST 
-   */
-
   .notification-toast { bottom: 30px; }
 
-
-
-  /**
-   * #HEADER 
-   */
 
   .header-social-container {
     display: flex;
@@ -2338,11 +2082,6 @@ footer {
   .mobile-bottom-navigation { display: none; }
 
 
-
-  /**
-   * #BANNER 
-   */
-
   .banner { margin-top: 0; }
 
   .slider-item { height: 380px; }
@@ -2360,19 +2099,11 @@ footer {
 
 
 
-  /**
-   * #CATEGORY 
-   */
-
   .category-item { min-width: calc(33.33% - 20px); }
 
   .category-img-box { padding: 10px; }
 
 
-
-  /**
-   * #PRODUCT 
-   */
 
   .product-container .container {
     position: relative;
@@ -2426,10 +2157,6 @@ footer {
 
 
 
-  /**
-   * #TESTIMONIALS, CTA & SERVICE 
-   */
-
   .testimonials-box {
     display: flex;
     flex-wrap: wrap;
@@ -2457,19 +2184,11 @@ footer {
 
 
 
-  /**
-   * #BLOG
-   */
-
   .blog-card { min-width: calc(33.33% - 20px); }
 
   .blog-title { --fs-5: 1rem; }
 
 
-
-  /**
-   * #FOOTER
-   */
 
   .footer-nav-list {
     min-width: calc(20% - 16px);
@@ -2484,51 +2203,23 @@ footer {
 
 
 
-
-
-/**
- * responsive larger than 1200px screen
- */
-
 @media (min-width: 1200px) {
 
-  /**
-   * #REUSED STYLE 
-   */
 
   .container { max-width: 1200px; }
 
-
-
-  /**
-   * #HEADER
-   */
 
   .desktop-menu-category-list { gap: 45px; }
 
 
 
-  /**
-   * #BANNER
-   */
-
   .slider-item:last-child .banner-img { object-position: top; }
 
-
-
-  /**
-   * #CATEGORY
-   */
 
   .category-item { min-width: calc(25% - 22.5px); }
 
   .category-item-title { --fs-9: 0.824rem; }
 
-
-
-  /**
-   * #PRODUCT
-   */
 
   .product-featured .showcase > div { min-width: calc(50% - 10px); }
 
@@ -2537,10 +2228,6 @@ footer {
   .product-grid { grid-template-columns: repeat(4, 1fr); }
 
 
-
-  /**
-   * #TESTIMONIALS, CTA, SERVICE
-   */
 
   .testimonial, .service {
     min-width: calc(25% - 20px);
@@ -2566,19 +2253,10 @@ footer {
 
 
 
-  /**
-   * #BLOG
-   */
-
   .blog { margin-bottom: 50px; }
   
   .blog-card { min-width: calc(25% - 22.5px); }
 
-
-
-  /**
-   * #FOOTER
-   */
 
   footer { padding-top: 50px; }
 
@@ -2593,33 +2271,15 @@ footer {
 
 
 
-
-
-/**
- * responsive larger than 1400px screen
- */
-
 @media (min-width: 1400px) {
 
-  /**
-   * #BASE 
-   */
 
   html { font-size: 18px; }
 
 
 
-  /**
-   * #REUSED STYLE 
-   */
-
   .container { max-width: 1350px; }
 
-
-
-  /**
-   * #BANNER
-   */
 
   .slider-item { height: 450px; }
 
