@@ -1,3 +1,6 @@
+#Summary of my portfolio website
+
+
 I created a responsive e-commerce website using HTML, CSS, and JavaScript. The project includes a code snippet that preconnects to Google Fonts for improved loading times.
 
 Features
